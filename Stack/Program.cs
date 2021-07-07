@@ -13,14 +13,11 @@ namespace StackTask
             stack.Push(2);
             stack.Push(3);
             stack.Push(4);
-            stack.Pop();
+           
             stack.Pop();
             stack.Print();
             stack.Peek();
             stack.Clear();
-
-
-
         }
     }
     public interface IStackTask<T>
@@ -84,6 +81,5 @@ namespace StackTask
             Console.WriteLine($"Clearing the stack..");
             StackList.Clear();
         }
-
     }
 }
